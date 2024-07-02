@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/picture/Logo2.png">
+
+    <title>Spitalj</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+
+
+
+</head>
+
+<body>
+    <!-- Loading -->
+    <div id="loading">
+        <span class="loader"></span>
+    </div>
+
+    <!-- Main Page -->
+    <div class="first">
+        <header class="nav" id="nav">
+            <nav class="navbar">
+                <div class="logo"><a href="#"><img src="/public/picture/Logo.png" alt=""></a></div>
+                <div class="logo2"><a href="#"><img src="/public/picture/Logo2.png" alt=""></a></div>
+
+                <ul class="nav-links">
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skill</a></li>
+                    <li><a href="#resume">Experience</a></li>
+                    <li><a href="#contactContainer">Contact</a></li>
+
+                </ul>
+
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <nav class="dropdown_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about1">About</a></li>
+                <li><a href="#skills1">Skill</a></li>
+                <li><a href="#resume1">Experience</a></li>
+                <li><a href="#contactContainer1">Contact</a></li>
+            </nav>
+        </header>
+
+        <main>
+            <section id="intro" class="intro">
+                <h1>Hi, my name is</h1>
+                <h2 class="animatedHeader">Justyna Spital</h2>
+                <h3>I'm a&nbsp; <span id="job-title">Fullstack developer</span></h3>
+                <div class="buttonContainer">
+                    <button class="download-button" onclick="downloadResume()">Resume</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <!-- About -->
+    <div class="gitFlow">
+        <div class="section1">
+            <div class="flow">
+
+                <svg width="551" height="9875" viewBox="0 0 551 9875" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                        d="M193 6047.59C193 5970 193 6000.3 193 5970V6008.8V6047.59ZM193 6047.59C193 6125.19 548 6162.22 548 6239.82M548 6239.82C548 6317.41 548 6928.99 548 6959.29M548 6239.82V6959.29M548 6959.29V7283.69C548 7356.78 193 7393.81 193 7471.41C193 7486.56 193 7469.85 193 7485"
+                        stroke="#51B9A2" stroke-width="5" />
+                    <path
+                        d="M74 5806.53C74 5740 74 5765.98 74 5740V5773.26V5806.53ZM74 5806.53C74 5873.05 193 5904.8 193 5971.33M193 5971.33C193 6037.85 193 6320.16 193 6346.14M193 5971.33V6346.14M193 6346.14V7493.54C193 7556.2 74.0003 7587.95 74.0003 7654.47C74.0003 7667.46 74.0003 7674.75 74.0003 7687.74V7704.37V7721"
+                        stroke="#B95168" stroke-width="5" />
+                    <path
+                        d="M144.749 8242.78C144.749 8176.27 144.749 8202.24 144.749 8176.27V8209.53V8242.78ZM144.749 8242.78C144.749 8309.29 216 8341.03 216 8407.54M216 8407.54C216 8474.05 216 8635.51 216 8661.49M216 8407.54V8661.49M216 8661.49L216 8825.99C216 8888.64 74 8899.98 74 8966.49C74 8979.48 74 8986.76 74 8999.75V9016.37V9033"
+                        stroke="#51B9A2" stroke-width="5" />
+                    <path
+                        d="M73.9997 7736.51C73.9997 7670 73.9997 7695.97 73.9997 7670V7703.25V7736.51ZM73.9997 7736.51C73.9997 7803.02 145 7834.76 145 7901.27M145 7901.27C145 7967.78 145 8350.64 145 8376.61M145 7901.27L145 8376.61M145 8376.61L145 8536.9C145 8599.54 74 8631.28 74 8697.79C74 8710.78 74 8718.06 74 8731.05V8747.67V8764.3"
+                        stroke="#B95168" stroke-width="5" />
+                    <path
+                        d="M74 9016.51C74 8950 74 8975.97 74 8950V8983.25V9016.51ZM74 9016.51C74 9083.02 145 9114.76 145 9181.27M145 9181.27C145 9247.78 145 9320.64 145 9346.61M145 9181.27L145 9346.61M145 9346.61L145 9431.9C145 9494.54 74.0003 9526.28 74.0003 9592.79C74.0003 9605.78 74.0003 9586.01 74.0003 9599"
+                        stroke="#B95168" stroke-width="5" />
+                    <path
+                        d="M74.0002 986.51C74.0002 920 74.0002 945.974 74.0002 920V953.255V986.51ZM74.0002 986.51C74.0002 1053.02 145 1084.76 145 1151.27M145 1151.27C145 1217.78 145 1379.24 145 1405.22M145 1151.27V1405.22M145 1405.22V5469.5C145 5532.14 74.0005 5563.89 74.0005 5630.4C74.0005 5643.38 74.0005 5431.89 74.0005 5444.87V5461.5V5478.13"
+                        stroke="#B95168" stroke-width="5" />
+                    <path
+                        d="M3 106.51C3 40 3 65.9736 3 40V73.2548V106.51ZM3 106.51C3 173.019 74.0003 204.763 74.0003 271.272M74.0003 271.272C74.0003 337.782 74.0003 499.245 74.0003 525.218M74.0003 271.272V525.218M74.0003 525.218V9613.5C74.0003 9680.01 3.0003 9711.75 3.00029 9778.26C3.00029 9791.25 3.00029 9798.53 3.00029 9811.52V9828.14V9844.77"
+                        stroke="#ECEC79" stroke-width="5" />
+                    <path d="M3 0L3 9874.5" stroke="#FFC0CB" stroke-width="5" />
+                    <circle cx="74.0002" cy="490" r="28.5" fill="url(#pattern0_0_1)" stroke="#ECEC79"
+                        stroke-width="3" />
+                    <circle cx="74" cy="5780" r="28.5" fill="url(#pattern1_0_1)" stroke="#ECEC79" stroke-width="3" />
+                    <circle cx="145" cy="2010" r="28.5" fill="url(#pattern2_0_1)" stroke="#B95168" stroke-width="3" />
+                    <circle cx="145" cy="3680" r="28.5" fill="url(#pattern3_0_1)" stroke="#B95168" stroke-width="3" />
+                    <circle cx="143" cy="5430" r="28.5" fill="url(#pattern4_0_1)" stroke="#A93B18" stroke-width="3" />
+                    <circle cx="216" cy="8630.27" r="28.5" fill="url(#pattern5_0_1)" stroke="#51B9A2"
+                        stroke-width="3" />
+                    <circle cx="145" cy="9209" r="28.5" fill="url(#pattern6_0_1)" stroke="#B95168" stroke-width="3" />
+                    <defs>
+                        <pattern id="pattern0_0_1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_0_1"
+                                transform="translate(0.0127414 -0.0265112) scale(0.00130208)" />
+                        </pattern>
+                        <pattern id="pattern1_0_1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_0_1"
+                                transform="translate(0.0127414 -0.0265112) scale(0.00130208)" />
+                        </pattern>
+                        <pattern id="pattern2_0_1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_0_1"
+                                transform="translate(0.0127414 -0.0265112) scale(0.00130208)" />
+                        </pattern>
+                        <pattern id="pattern3_0_1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_0_1"
+                                transform="translate(0.0127414 -0.0265112) scale(0.00130208)" />
+                        </pattern>
+                        <pattern id="pattern4_0_1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_0_1"
+                                transform="translate(0.0127414 -0.0265112) scale(0.00130208)" />
+                        </pattern>
+                        <pattern id="pattern5_0_1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_0_1"
+                                transform="translate(0.0127414 -0.0265112) scale(0.00130208)" />
+                        </pattern>
+                        <pattern id="pattern6_0_1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_0_1"
+                                transform="translate(0.0127414 -0.0265112) scale(0.00130208)" />
+                        </pattern>
+                        <image id="image0_0_1" x="0" y="0" width="768" height="1024"
+                            href="/public/picture/avatar.JPEG" />
+                    </defs>
+                </svg>
+
+
+            </div>
+            <div class="aboutContainer">
+                <div class="about" id="about">
+
+                    <div class="container2">
+                        <div class="aboutBox">
+                            <h2 class="animatedHeader">About <span class="strong">Me</span></h2>
+                        </div>
+                        <div class="aboutBox">
+                            <h2>Welcome to My Journey of Quality, Adventure, and Pixels!</h2>
+                            <p class="animate1">Hello everyone! I'm <span class="highlight">Justyna Spital</span>, a
+                                passionate <span class="highlight">software engineer</span> and an avid traveler. While
+                                my career has been focused on <span class="highlight">supplier quality assurance</span>,
+                                I've recently
+                                embarked on a new adventure in <span class="highlight">software development</span>.
+
+                                I’ll share my unique blend of experiences in <span class="highlight">quality
+                                    management</span>, <span class="highlight">food safety</span>, and my budding
+                                journey in programming, sprinkled with a dash of gaming fun.</p>
+                        </div>
+                        <div class="aboutBox">
+                            <h2>Who Am I?</h2>
+                            <p class="animate2">I have over a 6 years of experience in the <span class="highlight">food
+                                    industry</span>,
+                                ensuring top-notch quality and safety standards. A year ago, I decided to dive
+                                into
+                                the world of <span class="highlight">software development</span>. Since then, I’ve been
+                                coding, learning new technologies, and finding ways to integrate my <span
+                                    class="highlight">quality assurance</span> expertise into <span
+                                    class="highlight">software engineering</span>. I've traveled to over 18 countries,
+                                and
+                                often find myself analyzing the quality of my experiences, both food safety and
+                                code-related.
+                                Oh, and did I mention? I’m also an enthusiastic <span class="highlight">gamer</span>,
+                                finding joy and relaxation in exploring virtual worlds and honing my strategic skills.
+                            </p>
+                        </div>
+                        <div class="aboutBox">
+                            <h2>My motto? "Quality isn’t expensive, it’s priceless. But bad quality? That’ll cost you!"
+                            </h2>
+                            <p class="animate3">As I navigate through the realms of <span class="highlight">supplier
+                                    quality
+                                    assurance</span>
+                                and <span class="highlight">software development</span>, I believe in maintaining a
+                                work-life balance that’s as smooth as my code and as fulfilling as a perfect meal. My
+                                advice
+                                to aspiring professionals: “Travel often. The world is the best classroom, and
+                                sometimes,
+                                the best quality checks are done with a passport in hand.” And when you need a break,
+                                don’t
+                                forget to fire up your favorite <span class="highlight">game</span>—it’s not just
+                                entertainment; it's a training ground for problem-solving and teamwork. Thank you for
+                                joining me as I explore the fascinating intersections of <span class="highlight">quality
+                                    assurance</span>, <span class="highlight">food safety</span>, <span
+                                    class="highlight">software development</span>, and <span
+                                    class="highlight">gaming</span>!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- skill -->
+        <div class="section2">
+            <div class="skills" id="skills">
+                <div class="container">
+                    <div class="programing">
+                        <div class="tittle">
+                            <h2 class="animatedHeader">My TECH start</h2>
+                        </div>
+                        <div class="category">
+                            <div id="language" class="subCategory">
+                                <h3>Programming <br>Languages</h3>
+                                <ul class="language">
+                                    <li><img src="/public/picture/TechPack/CSharp.png" alt=""><span
+                                            class="shadow">C#(.Net)<span class="noshadow">C#(.Net)</span></span></li>
+                                    <li><img src="/public/picture/TechPack/js.png" alt=""><span
+                                            class="shadow">JavaScript<span class="noshadow">JavaScript</span></span>
+                                    </li>
+                                    <li><img src="/public/picture/TechPack/python.png" alt=""><span
+                                            class="shadow">Python<span class="noshadow">Python</span></span></li>
+                                    <li><img src="/public/picture/TechPack/SQL.png" alt=""><span class="shadow">SQL<span
+                                                class="noshadow">SQL</span></span></li>
+                                </ul>
+                            </div>
+                            <div id="web" class="subCategory">
+                                <h3>Web <br>Technologies</h3>
+                                <ul class="web">
+                                    <li><img src="/public/picture/TechPack/html.png" alt=""><span class="shadow">HTML
+                                            5<span class="noshadow">HTML 5</span></span></li>
+                                    <li><img src="/public/picture/TechPack/css.png" alt=""><span class="shadow">CSS
+                                            3<span class="noshadow">CSS 3</span></span></li>
+                                </ul>
+                            </div>
+                            <div id="tools" class="subCategory">
+                                <h3>Tools <br>and Platforms</h3>
+                                <ul class="tools">
+                                    <li><img src="/public/picture/TechPack/git.png" alt=""><span class="shadow">Git<span
+                                                class="noshadow">Git</span></span></li>
+                                    <li><img src="/public/picture/TechPack/github.png" alt=""><span
+                                            class="shadow">GitHub<span class="noshadow">GitHub</span></span></li>
+                                    <li><img src="/public/picture/TechPack/vs.png" alt=""><span class="shadow">Visual
+                                            Studio<span class="noshadow">Visual Studio</span></span></li>
+                                    <li><img src="/public/picture/TechPack/node.png" alt=""><span
+                                            class="shadow">Node.js<span class="noshadow">Node.js</span></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food">
+                        <div class="tittle">
+                            <h2 class="animatedHeader">My QA start</h2>
+                        </div>
+                        <div class="animatedFood">
+                            <ul>
+                                <li>HACCP</li>
+                                <li>TACCP</li>
+                                <li>VACCP</li>
+                                <li>GMP</li>
+                                <li>GHP</li>
+                                <li>BRCGS</li>
+                                <li>IFS</li>
+                                <li>5S</li>
+                                <li>GFSI</li>
+                                <li>Lean<br>Manufacturing</li>
+                                <li>Organic</li>
+                                <li>ISO</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Resume -->
+        <div class="section3">
+            <div class="resume" id="resume">
+                <div class="container" id="workContainer">
+                    <div class="work">
+                        <div class="tittle">
+                            <h2 class="animatedHeader">Experience</h2>
+                        </div>
+                        <div class="container3">
+                            <div class="timeline-container">
+                                <div class="timeline">
+                                    <div class="timeline-line"></div>
+
+                                    <div id="timeline-markers"></div>
+
+                                    <div class="timeline-item" data-year="2018" id="item-2018">
+                                        <div class="timeline-marker"></div>
+                                        <div class="icon"><img src="/public/picture/tarczynski.jpg" alt=""></div>
+                                        <div class="year">Oct 2018</div>
+                                    </div>
+                                    <div class="timeline-item" data-year="2020" id="item-2020">
+                                        <div class="timeline-marker"></div>
+                                        <div class="icon"><img src="/public/picture/THG.jpg" alt=""></div>
+                                        <div class="year">Jan 2020</div>
+                                    </div>
+                                    <div class="timeline-item" data-year="2021" id="item-2021">
+                                        <div class="timeline-marker"></div>
+                                        <div class="icon"><img src="/public/picture/THG.jpg" alt=""></div>
+                                        <div class="year">Feb 2021</div>
+                                    </div>
+                                    <div class="timeline-item" data-year="2022" id="item-2022">
+                                        <div class="timeline-marker"></div>
+                                        <div class="icon"><img src="/public/picture/THG.jpg" alt=""></div>
+                                        <div class="year">Oct 2022</div>
+                                    </div>
+                                </div>
+                                <div class="data-display">
+                                    <div id="data-box" class="data-box">
+                                        <h2 id="year-title"></h2>
+                                        <p id="company"></p>
+                                        <p id="experience" class="experience"></p>
+                                        <button id="more-btn" style="display: none;">More</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="education">
+                        <div class="tittle">
+                            <h2 class="animatedHeader">Education</h2>
+                        </div>
+                        <div class="container4">
+                            <div class="box">
+                                <div class="schoolTitle">Postgraduate Studies</div>
+                                <div class="graduate" id="backend-net"><span>Back-end Developer </span>.NET(C#)</div>
+                                <div class="schoolName">Wyższa Szkoła Kształcenia Zawodowego</div>
+                                <div class="schoolYear">09/23 - 09/24</div>
+                            </div>
+                            <div class="box">
+                                <div class="graduate" id="business-man"><span>Business </span>Management</div>
+                                <div class="schoolTitle">Postgraduate Studies</div>
+                                <div class="schoolName">WSB Wroclaw</div>
+                                <div class="schoolYear">10/19 - 09/20</div>
+                            </div>
+                            <div class="box">
+                                <div class="graduate">Food Technology and Human Nutrition</div>
+                                <div class="schoolTitle">Master of Engineering</div>
+                                <div class="schoolName">Wroclaw University of Environmental and Life Sciences</div>
+                                <div class="schoolYear">07/17 - 07/18</div>
+                            </div>
+                            <div class="box">
+                                <div class="graduate">Food Quality Management and Analysis</div>
+                                <div class="schoolTitle">Master of Engineering</div>
+                                <div class="schoolName">Wroclaw University of Environmental and Life Sciences</div>
+                                <div class="schoolYear">02/15 - 07/16</div>
+                            </div>
+                            <div class="box">
+                                <div class="graduate">Food Technology and Human Nutrition</div>
+                                <div class="schoolTitle">Bachelor of Engineering</div>
+                                <div class="schoolName">Politechnika Opolska</div>
+                                <div class="schoolYear">10/12 - 07/15</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="section4">
+            <div class="contactContainer" id="contactContainer">
+                <div class="subContainerContact">
+                    <div class="contact-form-container">
+                        <h2 class="animatedHeader">Let's get in touch!</h2>
+                        <p>Leave your details and a short message below</p>
+                        <form action="sendemail.php" id="contactForm" method="post">
+                            <div class="form-group">
+                                <label for="fullName">Full name</label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="What would you like to ask me?"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" name="send">Send Message</button>
+                        </form>
+                        <div id="confirmationPage" style="display: none;">
+                            <h1>Email has been sent!</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="currentColor"
+                                class="bi bi-check-circle-fill animated swing" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                            </svg>
+                            <section>
+                                <a href="/index.html">Send Another Email</a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="myContact">
+                    <img src="/public/picture/map1.png" alt="">
+                    <div class="email-container" id="emailContainer">
+                        <i class="fa-solid fa-at email-icon" id="emailIcon"></i>
+                        <span class="tooltip" id="tooltipText" animate>spital.justyna@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="socialIcons">
+            <a href="https://www.linkedin.com/in/jspital/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/JuSp12" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/justtyna12/?hl=en" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="information">
+            <p>Copyright © 2024 Justyna Spital</p>
+        </div>
+
+        <div class="information">
+            <a href="/policy.html" target="_blank">
+                <p>Private policy</p>
+            </a>
+        </div>
+
+        <!-- Arrow Up Icon -->
+        <div class="scrollToTop">
+            <a href="#" id="scrollToTopButton"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+    </footer>
+
+
+
+    <script src="/public/js/script.js"></script>
+
+</body>
+
+</html>

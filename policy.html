@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/picture/Logo2.png">
+
+    <title>Spitalj</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+
+
+
+</head>
+
+<body>
+
+    <!-- Loading -->
+    <div id="loading">
+        <span class="loader"></span>
+    </div>
+
+    <!-- Main Page -->
+    <div class="first">
+        <header class="nav" id="nav">
+            <nav class="navbar">
+                <div class="logo"><a href="#"><img src="/public/picture/Logo.png" alt=""></a></div>
+                <div class="logo2"><a href="#"><img src="/public/picture/Logo2.png" alt=""></a></div>
+
+                <ul class="nav-links">
+
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/index.html#about">About</a></li>
+                    <li><a href="/index.html#skills">Skill</a></li>
+                    <li><a href="/index.html#resume">Experience</a></li>
+                    <li><a href="/index.html#contactContainer">Contact</a></li>
+
+                </ul>
+
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <nav class="dropdown_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about1">About</a></li>
+                <li><a href="#skills1">Skill</a></li>
+                <li><a href="#resume1">Experience</a></li>
+                <li><a href="#contactContainer1">Contact</a></li>
+            </nav>
+        </header>
+        <main>
+            <section id="intro" class="intro">
+                <h1>Hi, my name is</h1>
+                <h2 class="animatedHeader">Justyna Spital</h2>
+                <h3>I'm a&nbsp; <span id="job-title">Fullstack developer</span></h3>
+                <div class="buttonContainer">
+                    <button class="download-button" onclick="downloadResume()">Resume</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="policy">
+        <h1>Privacy Policy</h1>
+
+        <p>Effective Date: 06.2024</p>
+
+        <p>Thank you for visiting my website. Below you will find information about the collection, use, and protection
+            of your personal data.</p>
+
+        <h2>1. General Information</h2>
+
+        <p>1.1. The controller of personal data collected through this website is Justyna Spital, located at UK, email:
+            spital.justyna@gmail.com.</p>
+
+        <p>1.2. Your personal data is treated as confidential and is protected in accordance with applicable data
+            protection laws, including the General Data Protection Regulation (GDPR).</p>
+
+        <h2>2. Types of Collected Personal Data</h2>
+
+        <p>2.1. Through the contact form on website, I may collect the following personal data:</p>
+        <ul>
+            <li>- Name</li>
+            <li>- Email address</li>
+            <li>- Content of the message sent via the contact form</li>
+        </ul>
+
+        <h2>3. Purpose of Data Collection and Processing</h2>
+
+        <p>3.1. Your personal data is collected for the following purposes:</p>
+        <ul>
+            <li>To respond to your inquiry or message sent via the contact form.</li>
+            <li>To communicate with you in response to your request.</li>
+        </ul>
+
+        <h2>4. Legal Basis for Processing Data</h2>
+
+        <p>4.1. The legal basis for processing your personal data is:</p>
+        <ul>
+            <li>Your consent to the processing of personal data for the purposes specified in this privacy policy.</li>
+        </ul>
+
+        <h2>5. Data Protection</h2>
+
+        <p>5.1. I take appropriate technical and organizational measures to ensure the security of your personal data,
+            protecting it against unauthorized access or disclosure, unauthorized destruction or alteration.</p>
+
+        <h2>6. Disclosure of Personal Data</h2>
+
+        <p>6.1. Your personal data will not be disclosed to third parties without your consent, unless it is necessary
+            for the performance of a contract or based on law.</p>
+
+        <h2>7. User Rights</h2>
+
+        <p>7.1. You have the right to:</p>
+        <ul>
+            <li>Access your personal data.</li>
+            <li>Correct your personal data.</li>
+            <li>Restrict processing of your personal data.</li>
+            <li>Transfer your personal data.</li>
+            <li>Withdraw consent to the processing of personal data at any time, without affecting the lawfulness of
+                processing based on consent before its withdrawal.</li>
+        </ul>
+
+        <p>7.2. You can exercise these rights by contacting me via the email address provided in section 1.1.</p>
+
+        <h2>8. Changing Submitted Information</h2>
+
+        <p>8.1. If you are unable to correct your personal data submitted through the contact form on my website, please
+            contact me directly via email. I will assist you in making the necessary corrections upon verification of
+            your identity.</p>
+
+        <h2>9. Data Storage</h2>
+
+        <p>9.1. I do not store your personal data in a database after it has been processed for the intended purpose.
+        </p>
+
+        <h2>10. Cookies</h2>
+
+        <p>10.1. I use cookies to ensure proper functioning of the website and for analytical purposes. </p>
+
+        <h2>11. Changes to Privacy Policy</h2>
+
+        <p>11.1. This privacy policy may be amended due to technical, organizational, or legal reasons. Any changes will
+            be published on my website.</p>
+
+        <h2>12. Contact</h2>
+
+        <p>12.1. For questions regarding data protection and this privacy policy, please contact me at
+            spital.justyna@gmail.com.</p>
+    </div>
+
+    <footer>
+        <div class="socialIcons">
+            <a href="https://www.linkedin.com/in/jspital/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/JuSp12" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/justtyna12/?hl=en" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="information">
+            <p>Copyright © 2024 Justyna Spital</p>
+        </div>
+
+        <div class="information">
+            <a href="/policy" target="_blank"><p>Private policy</p></a>
+        </div>
+
+        <!-- Arrow Up Icon -->
+        <div class="scrollToTop">
+            <a href="#" id="scrollToTopButton"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="/public/js/script.js"></script>
+
+</body>
+
+</html>
