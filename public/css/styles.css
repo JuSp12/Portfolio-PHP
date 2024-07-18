@@ -1059,9 +1059,10 @@ footer {
 
 .projects {
     display: flex;
+    text-align: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 2em;
+    flex-direction: column;
+    gap: 3em;
     padding: 2em;
 }
 
@@ -1069,6 +1070,8 @@ footer {
 
 .project {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 2em;
 }
 
@@ -1079,6 +1082,7 @@ footer {
     overflow: hidden;
     width: 500px;
     text-align: left;
+    
 }
 
 .project-card img {
@@ -1098,21 +1102,12 @@ footer {
 .project-info p {
     margin: 0.5em 0;
     color: #666;
+    font-size: 1em;
+
 }
 
-.project-info a {
-    display: inline-block;
-    margin-top: 1em;
-    padding: 0.5em 1em;
-    background-color: #8e44ad;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
 
-.project-info a:hover {
-    background-color: #732d91;
-}
+
 
 /* Responsive design */
 @media (max-width: 992px) {
