@@ -1055,6 +1055,65 @@ footer {
     font-size: 0.8em;
 }
 
+/* Projects */
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em;
+}
+
+
+
+.project {
+    display: flex;
+    gap: 2em;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 500px;
+    text-align: left;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-info h2 {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}
+
+.project-info p {
+    margin: 0.5em 0;
+    color: #666;
+}
+
+.project-info a {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #8e44ad;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-info a:hover {
+    background-color: #732d91;
+}
+
 /* Responsive design */
 @media (max-width: 992px) {
 
